@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:clickable="true"
+        android:padding="20dp"
+        android:focusableInTouchMode="true"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_height="250dp"
+            android:layout_width="250dp"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/registerGif"
+            android:src="@drawable/register_patient_gif"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:id="@+id/layName"
+            android:clickable="true"
+            android:layout_marginTop="30dp"
+            android:textColorHint="#000">
+
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="true"
+                android:clickable="true"
+                android:backgroundTint="#ffff"
+                android:drawableStart="@drawable/user"
+                android:hint="@string/Name"
+                android:drawablePadding="15dp"
+
+                android:ems="10"
+                android:id="@+id/name"
+                android:textColor="#000"
+                android:textSize="20sp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:id="@+id/layMail"
+            android:clickable="true"
+            android:layout_marginTop="20dp"
+            android:textColorHint="#000">
+
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="true"
+                android:clickable="true"
+                android:backgroundTint="#ffff"
+                android:drawableStart="@drawable/email"
+                android:hint="@string/email"
+                android:drawablePadding="15dp"
+
+                android:ems="10"
+                android:id="@+id/email"
+                android:textColor="#000"
+                android:textSize="20sp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:id="@+id/layPass"
+            android:clickable="true"
+            android:layout_marginTop="20dp"
+            android:textColorHint="#000">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="true"
+                android:clickable="true"
+                android:backgroundTint="#ffff"
+                android:drawableStart="@drawable/lock"
+                android:hint="@string/password"
+                android:drawablePadding="15dp"
+                android:inputType="textPassword"
+                android:ems="10"
+                android:id="@+id/password"
+                android:textColor="#000"
+                android:textSize="20sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:clickable="true"
+            android:layout_marginTop="18dp">
+
+            <Button
+                android:elevation="5dp"
+                android:id="@+id/login"
+                android:layout_width="match_parent"
+                android:focusable="true"
+                android:clickable="true"
+                android:layout_height="50dp"
+                android:background="@color/red"
+                style="@style/Base.Widget.AppCompat.Button.Borderless"
+                android:text="@string/register"
+                android:textSize="18sp"
+                android:layout_marginRight="16dp"
+                android:layout_marginLeft="16dp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:gravity="center_horizontal"
+                android:onClick="registerPatient"/>
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+</ScrollView>

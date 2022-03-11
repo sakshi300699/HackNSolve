@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">SheCure</string>
+
+    <!--Login Screen-->
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="forgot_pwd">Forgot Password?</string>
+    <string name="newUser" translatable="false">New User?</string>
+    <string name="yetTobeVerified">Your profile is yet to be verified</string>
+
+    <!--Register Screen-->
+    <string name="Name">Name</string>
+    <string name="register">Register</string>
+    <string name="reqMail" translatable="false">Email is required</string>
+    <string name="reqName" translatable="false">Name is required</string>
+    <string name="reqSpl" translatable="false">Specialisation is required</string>
+    <string name="reqID" translatable="false">Medical Registration Number is required</string>
+    <string name="reqPass" translatable="false">Password must be atleast 8 characters long</string>
+    <string name="medID">Medical Registration Number</string>
+    <string name="specialisation">Specialisation</string>
+
+    <!--Registration Popup-->
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="patOrDoc">Are you looking for medical consultation?</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="title_activity_patient_home">PatientHomeActivity</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <!--PatientHome Activity-->
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+</resources>
