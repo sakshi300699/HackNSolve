@@ -22,17 +22,17 @@
 }
 
 #suggestion{
-    background:#f7dc8f;
+    background:#fa66a7;
     width:70%;
     margin:2% 15%;
     box-shadow:2px 2px 5px 2px rgba(0,0,0,0.1);
 }
 #predict{
     background: #ff6666; /* Old browsers */
-    background: -moz-linear-gradient(-45deg,  #ff6666 0%, #ffd65e 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(-45deg,  #ff6666 0%,#ffd65e 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(135deg,  #ff6666 0%,#ffd65e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff6666', endColorstr='#ffd65e',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    background: -moz-linear-gradient(-45deg,  #f03885 0%, #fb6aaa 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg,  #f03885 0%,#fb6aaa 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg,  #f03885 0%,#fb6aaa 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f03885', endColorstr='#fb6aaa',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
     color:white;
     width:70%;
     margin:2% 15%;
@@ -45,7 +45,7 @@ h1{
    font-size:3.5rem;
 }
 h2{
-    color:#ff9966;
+    color:#4588c3;
     padding:20px;
 }
 #predict-button{
@@ -54,9 +54,9 @@ h2{
 }
 #month{
     padding:5px;
-    border:1px solid #ff1744;
+    border:1px solid #fa66a7;
     border-radius:5px;
-    color:#ff1744;
+    color:#fa66a7;
     min-width:70%;
     margin:5% 0px;
 }
@@ -99,11 +99,11 @@ h2{
     text-align:center;
 }
 .head-card{
-    border:1px solid #f7dc8f;
+    border:1px solid #4588c3;
     padding:2px;
     margin:5px;
-    font-family: 'Dancing Script', cursive; 
-   color:#ff6666;
+    font-family: 'Kaushan Script', cursive; 
+   color:#4588c3;
    font-weight:800;
    font-size:2rem;
     margin-bottom:10px;
