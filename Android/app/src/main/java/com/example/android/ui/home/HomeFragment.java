@@ -46,13 +46,13 @@ public class HomeFragment extends Fragment {
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        /*prefs = getSharedPreferences("role",MODE_PRIVATE);
-        currUserRole = prefs.getString("userRole","");*/
+        prefs = this.getActivity().getSharedPreferences("role",MODE_PRIVATE);
+        currUserRole = prefs.getString("userRole","").toLowerCase();
         homeViewModel =
                 new ViewModelProvider(this).get(HomeViewModel.class);
         View root = inflater.inflate(R.layout.fragment_home, container, false);
-        /*ListView chatList = root.findViewById(R.id.chatList);
-        initPrevChats();*/
+        chatList = root.findViewById(R.id.chatList);
+        initPrevChats();
         return root;
     }
 
@@ -73,7 +73,7 @@ public class HomeFragment extends Fragment {
 
             @Override
             public void onCancelled(@NonNull DatabaseError error) {
-                //Toast.makeText(HomeFragment.this,"Cancelled "+error.getMessage(),Toast.LENGTH_SHORT).show();
+                Toast.makeText(getActivity(),"Cancelled "+error.getMessage(),Toast.LENGTH_SHORT).show();
             }
         });
 
@@ -112,8 +112,8 @@ public class HomeFragment extends Fragment {
     }
 
     private void addAdapterToList(ArrayList<String> chatIDs, ArrayList<String> chatNames) {
-        /*ChatListAdapter adapter = new ChatListAdapter(PatientHomeActivity.this,chatIDs,chatNames);
-        chatList.setAdapter(adapter);*/
+        ChatListAdapter adapter = new ChatListAdapter(this.getActivity(),chatIDs,chatNames);
+        chatList.setAdapter(adapter);
     }
 
 }

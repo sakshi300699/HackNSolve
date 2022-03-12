@@ -31,6 +31,7 @@
     <string name="nav_header_subtitle">android.studio@android.com</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Logout</string>
+    <string name="go">Go</string>
 
     <string name="menu_home">My Chats</string>
     <string name="menu_gallery">My Appointments</string>
