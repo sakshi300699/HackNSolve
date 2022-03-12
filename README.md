@@ -10,7 +10,8 @@
 **Inspiration** - These pandemic times have taught us the importance of a remote healthcare system. Additionally rural areas currently do not have access to good healthcare systems. This has motivated us to build MedForHer.
 
 ## Features
-* <b>Breast Cancer Detection tool :</b> Detects the presence of Metastatic Tissue and Invasive Ductal Carcinoma using two AI Models
+* <b>Breast Cancer Detection tool :</b> Detects the presence of Metastatic Tissue and Invasive Ductal Carcinoma using two AI Models.
+* <b>Predict Cervical Cancer</b> and preliminary test results according to user’s demographic information, habits, and historic medical records
 
 ## Technology Stack
 
