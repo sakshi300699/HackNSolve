@@ -1,5 +1,7 @@
 package com.example.android.ui.home;
 
+import android.app.Activity;
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -15,6 +17,7 @@ import androidx.fragment.app.Fragment;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
 
+import com.example.android.ChatActivity;
 import com.example.android.ChatListAdapter;
 import com.example.android.PatientHomeActivity;
 import com.example.android.R;
@@ -34,8 +37,6 @@ import static android.content.Context.MODE_PRIVATE;
 public class HomeFragment extends Fragment {
 
     private HomeViewModel homeViewModel;
-    public int ActivityNum = 0;
-    private FloatingActionButton newChatbtn;
     private ListView chatList;
     ArrayList<String> chatIDs;
     ArrayList<String> chatNames;
@@ -43,6 +44,13 @@ public class HomeFragment extends Fragment {
     String currUserRole;
     long numOfChats;
     int currCount=0;
+    Activity activity;
+
+    @Override
+    public void onAttach(Activity activity) {
+        super.onAttach(activity);
+        this.activity = activity;
+    }
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
@@ -81,7 +89,7 @@ public class HomeFragment extends Fragment {
 
     private void addNameAsPerUserRole() {
         String nameType = "";
-        if(currUserRole=="patient"){
+        if(currUserRole.equals("patient")){
             nameType = "nameDoc";
         }else{
             nameType = "namePat";
@@ -116,4 +124,37 @@ public class HomeFragment extends Fragment {
         chatList.setAdapter(adapter);
     }
 
+    public void goToChatRoom(View view) {
+        TextView roomID = view.findViewById(R.id.roomID);
+        String chatRoomID = roomID.getText().toString();
+        chatIDs = new ArrayList<>();
+        chatNames = new ArrayList<>();
+        findUserName(chatRoomID);
+    }
+
+    private void findUserName(String roomID) {
+        String currUserId = FirebaseAuth.getInstance().getCurrentUser().getUid();
+        DatabaseReference ref = FirebaseDatabase.getInstance().getReference().child("patient").child(currUserId).child("info");
+        ref.child("name").addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(@NonNull DataSnapshot snapshot) {
+                String username = snapshot.getValue(String.class);
+                Intent intent = new Intent(activity, ChatActivity.class);
+                intent.putExtra("roomId",roomID);
+                intent.putExtra("currUserName",username);
+                resetArrays();
+                startActivity(intent);
+            }
+
+            @Override
+            public void onCancelled(@NonNull DatabaseError error) {
+
+            }
+        });
+    }
+
+    public void resetArrays() {
+        chatIDs = new ArrayList<>();
+        chatNames = new ArrayList<>();
+    }
 }

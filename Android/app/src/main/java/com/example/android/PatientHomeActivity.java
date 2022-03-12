@@ -6,6 +6,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.Menu;
 
+import com.example.android.ui.home.HomeFragment;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.snackbar.Snackbar;
 import com.google.android.material.navigation.NavigationView;
@@ -24,11 +25,13 @@ import androidx.appcompat.widget.Toolbar;
 public class PatientHomeActivity extends AppCompatActivity {
 
     private AppBarConfiguration mAppBarConfiguration;
+    private HomeFragment home;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_patient_home2);
+        home = new HomeFragment();
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         FloatingActionButton fab = findViewById(R.id.fab);
@@ -37,6 +40,7 @@ public class PatientHomeActivity extends AppCompatActivity {
             public void onClick(View view) {
                 /*Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();*/
+                home.resetArrays();
                 Intent intent = new Intent(PatientHomeActivity.this,NewDoctorSearchActivity.class);
                 startActivity(intent);
             }
@@ -84,6 +88,10 @@ public class PatientHomeActivity extends AppCompatActivity {
             startActivity(intent);
             finish();
         }
+    }
+
+    public void navigateToChatRoom(View view){
+        home.goToChatRoom(view);
     }
 
 }
