@@ -20,7 +20,7 @@
             android:layout_width="250dp"
             android:layout_gravity="center_horizontal"
             android:id="@+id/loginGif"
-            android:src="@drawable/logingif"/>
+            android:src="@drawable/logo"/>
 
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"

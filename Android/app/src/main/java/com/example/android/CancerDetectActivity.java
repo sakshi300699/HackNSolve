@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.RadioButton;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import retrofit2.Call;
@@ -17,12 +18,14 @@ import retrofit2.Response;
 public class CancerDetectActivity extends AppCompatActivity {
 
     Button go;
+    TextView results;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_cancer_detect);
         go=findViewById(R.id.go);
+        results = findViewById(R.id.results);
         go.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -121,13 +124,14 @@ public class CancerDetectActivity extends AppCompatActivity {
                             if (response.body() != null) {
                                 AuthResponseCancer authResponse = response.body();
                                 Toast.makeText(CancerDetectActivity.this, String.valueOf(authResponse.getBiopsy()),Toast.LENGTH_SHORT).show();
-                                
+                                results.setText("Hinselmann:"+authResponse.getHinselmann()+"\n Cytology:"+authResponse.getCytology()+"\n Schiller:"
+                                +authResponse.getSchiller()+"\n Biopsy:"+authResponse.getBiopsy());
                             } else
                                 Toast.makeText(CancerDetectActivity.this, "Couldn't log you in. Please try again.",Toast.LENGTH_SHORT).show();
                         } else if(response.code() == 400){
                             Toast.makeText(CancerDetectActivity.this, "Invalid Credentials!",Toast.LENGTH_SHORT).show();
                         } else
-                            Toast.makeText(CancerDetectActivity.this, "Couldn't log you in. Please try again later.",Toast.LENGTH_SHORT).show();
+                            Toast.makeText(CancerDetectActivity.this, "Couldn't .",Toast.LENGTH_SHORT).show();
                     }
                 } catch (Exception e) {
                     e.printStackTrace();
