@@ -12,7 +12,7 @@
 }
 .dashboard-card{
     background:white;
-    border: 1px solid #ffe885;
+    border: 1px solid #4588c3;
     width:40%;
     min-height:350px;
     margin:2%;
@@ -20,7 +20,7 @@
 }
 .dashboard-main-card{
     background:white;
-    border: 1px solid #ffe885;
+    border: 1px solid #4588c3;
     width:80%;
     min-height:300px;
     margin:2% 10%;
@@ -28,13 +28,12 @@
     padding-bottom:20px;
 }
 .dashboard-card-head{
-    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#fa66a7+0,ffd65e+100 */
-    background: #fa66a7; /* Old browsers */
-    background: -moz-linear-gradient(-45deg,  #fa66a7 0%, #ffd65e 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(-45deg,  #fa66a7 0%,#ffd65e 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(135deg,  #fa66a7 0%,#ffd65e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fa66a7', endColorstr='#ffd65e',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-
+   background: #fa66a7; /* Old browsers */
+    background: -moz-linear-gradient(-45deg,  #f03885 0%, #ff7490 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg,  #f03885 0%,#ff7490 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg,  #f03885 0%,#ff7490 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f03885', endColorstr='#ff7490',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    color:white;
     height:60px;
     padding:13px 30px;
     font-weight:600;
@@ -43,9 +42,9 @@
     margin:0px;
 }
 .report-list{
-    border-top:1px solid  #ffe885;
-    background: #ffdc4340;
-    border-bottom:1px solid  #ffe885;
+    border-top:1px solid  #4588c3;
+    background: rgba(0,0,0,0.05);
+    border-bottom:1px solid  #4588c3;
     padding:20px;
     color:black;
     margin:10px 0px;
@@ -56,8 +55,8 @@
     padding-top:50px;
 }
 .prescription{
-    background: #ffdc4340;
-    border:1px solid  #ffe885;
+    background: rgba(0,0,0,0.05);
+    border:1px solid  #4588c3;
     width:90%;
     margin:2% 3%;
     border-radius:30px;
