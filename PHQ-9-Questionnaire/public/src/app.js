@@ -231,10 +231,8 @@ var Recommendation = React.createClass({
 		var normal = 'btn btn-primary btn-block';
 		return (
 			<div>
-				<p>It is recommended that you reach out to a health care professional.  Please choose from the below list of qualified therapists and you will be contacted shortly.</p>
+				<p>It is recommended that you reach out to a health care professional. </p>
 				{ this.state.success ? <RequestSuccess /> : ''}
-				{ this.state. success ? '' : <TherapistList /> }
-				{ this.state.success ? '' :  <a className="btn btn-primary" onClick={this.updateSuccess}>Submit Request</a> }
 			</div>
 		)
 	}
