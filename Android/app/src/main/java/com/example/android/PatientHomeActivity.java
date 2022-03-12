@@ -7,6 +7,7 @@ import android.view.View;
 import android.view.Menu;
 
 import com.example.android.ui.home.HomeFragment;
+import com.example.android.ui.slideshow.SlideshowFragment;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.snackbar.Snackbar;
 import com.google.android.material.navigation.NavigationView;
@@ -26,6 +27,7 @@ public class PatientHomeActivity extends AppCompatActivity {
 
     private AppBarConfiguration mAppBarConfiguration;
     private HomeFragment home;
+    private SlideshowFragment slide = new SlideshowFragment();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
