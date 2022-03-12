@@ -133,7 +133,7 @@ $t=0;$p1=0;
     </nav>
 
    </section>
-    
+
 <body style="margin-top:10% !important;">
 <section class="info3 cid-smHa3xqxC6 mbr-parallax-background" id="info3-r" style="margin-top:30px; ">
 <div class="mbr-overlay" style="opacity: 0.6; background-color:  #4588c3;">
@@ -212,7 +212,7 @@ $t=0;$p1=0;
                 <input type="radio" id="anxious" name="mood" class="flow-type" value="anxious">
                 <label class="flow-label" >Anxious</label>
             </div>
-            <button type="submit" name="submit" action="submit" class="btn btn-danger" id="predict-button"style="">Predict Your Next Period</button>
+            <button type="submit" name="submit" action="submit" class="btn btn-secondary" id="predict-button"style="">Predict Your Next Period</button>
         </div>
         </form>
         <div id="predict">

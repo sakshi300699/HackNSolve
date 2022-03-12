@@ -140,8 +140,8 @@ body {
 }
 .btn-secondary,
 .btn-secondary:active {
-  background-color: #fa66a7 !important;
-  border-color: #fa66a7 !important;
+  background-color: #4588c3 !important;
+  border-color: #4588c3 !important;
   color: #ffffff !important;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
 }
@@ -150,8 +150,8 @@ body {
 .btn-secondary.focus,
 .btn-secondary.active {
   color: #ffffff !important;
-  background-color: #ff0f0f !important;
-  border-color: #ff0f0f !important;
+  background-color: #4588c3 !important;
+  border-color: #4588c3 !important;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
 }
 .btn-secondary.disabled,
@@ -228,8 +228,8 @@ body {
 }
 .btn-danger,
 .btn-danger:active {
-  background-color: #4588c3 !important;
-  border-color: #4588c3 !important;
+  background-color: #ff9966 !important;
+  border-color: #ff9966 !important;
   color: #ffffff !important;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
 }
@@ -238,8 +238,8 @@ body {
 .btn-danger.focus,
 .btn-danger.active {
   color: #ffffff !important;
-  background-color: #4588c3 !important;
-  border-color: #4588c3 !important;
+  background-color: #ff5f0f !important;
+  border-color: #ff5f0f !important;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
 }
 .btn-danger.disabled,
@@ -317,7 +317,7 @@ body {
 .btn-secondary-outline:active {
   background-color: transparent !important;
   border-color: transparent;
-  color: #ff6666;
+  color: #ff4167;
 }
 .btn-secondary-outline:hover,
 .btn-secondary-outline:focus,
@@ -331,8 +331,8 @@ body {
 .btn-secondary-outline.disabled,
 .btn-secondary-outline:disabled {
   color: #ffffff !important;
-  background-color: #ff6666 !important;
-  border-color: #ff6666 !important;
+  background-color: #ff4167 !important;
+  border-color: #ff4167 !important;
 }
 .btn-info-outline,
 .btn-info-outline:active {
@@ -464,7 +464,7 @@ body {
   color: #6592e6 !important;
 }
 .text-secondary {
-  color: #ff6666 !important;
+  color: #ff4167 !important;
 }
 .text-success {
   color: #40b0bf !important;
@@ -652,7 +652,7 @@ blockquote {
 .xdsoft_datetimepicker .xdsoft_calendar td:hover,
 .xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box > div > div:hover {
   color: #000000 !important;
-  background: #ff6666 !important;
+  background: #ff4167 !important;
   box-shadow: none !important;
 }
 .lazy-bg {
@@ -757,7 +757,7 @@ a {
 }
 .cid-smH7yzCdHX .nav-tabs {
   flex-wrap: wrap;
-  border-bottom: 1px solid #ff6666;
+  border-bottom: 1px solid #ff4167;
 }
 @media (max-width: 767px) {
   .cid-smH7yzCdHX .nav-item {
@@ -783,8 +783,8 @@ a {
   background-color: transparent;
 }
 .cid-smH7yzCdHX .nav-tabs .nav-link.active {
-  color: #ff6666;
-  border-bottom: 3px solid #ff6666;
+  color: #ff4167;
+  border-bottom: 3px solid #ff4167;
 }
 .cid-smH7yzCdHX H4 {
   text-align: center;
@@ -1208,7 +1208,7 @@ a {
 }
 .cid-smH9YlleGZ .item-title {
   text-align: left;
-  color: #4588c3;
+  color: #ff9966;
 }
 .cid-smH9YlleGZ .item-subtitle {
   text-align: left;
