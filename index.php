@@ -52,7 +52,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav nav-dropdown" data-app-modern-menu="true">
                     <li class="nav-item">
-                        <a class="nav-link link text-black display-4" href="aiTools.php">Diagnostic Tools</a>
+                        <a class="nav-link link text-black display-4" href="diagnosis_tools.html">Diagnostic Tools</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link link text-black display-4" href="#features4-q">Features</a>

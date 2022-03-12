@@ -112,7 +112,7 @@ $t=0;$p1=0;
                         <a class="nav-link link text-black display-4" href="index.php#features4-q">Features</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link link text-black display-4" href="aitools.php">Diagnostic Tools</a>
+                        <a class="nav-link link text-black display-4" href="diagnosis_tools.html">Diagnostic Tools</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link link text-black display-4" href="signup.php">Dashboard</a>

@@ -98,7 +98,7 @@
                         <a class="nav-link link text-black display-4" href="index.php#features4-q">Features</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link link text-black display-4" href="aiTools.php">Diagnostic Tools</a>
+                        <a class="nav-link link text-black display-4" href="diagnosis_tools.html">Diagnostic Tools</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link link text-black display-4" href="signup.php">Dashboard</a>
@@ -129,7 +129,7 @@
             <div class="col-12 col-lg-6" >
                 <div class="text-wrapper align-items-right" >
                     <h2 class="mbr-section-title mbr-fonts-style  display-5">
-                        <strong style="font-family: 'Kaushan Script', cursive; " style="color: #ff4167; font-size:2.5rem;">Sign Up</strong>
+                        <strong style="font-family: 'Kaushan Script', cursive; " style="color: #fa66a7; font-size:2.5rem;">Sign Up</strong>
                     </h2>
                 <div>
                         <form method="post" id="signupForm">

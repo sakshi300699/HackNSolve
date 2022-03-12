@@ -114,7 +114,7 @@ body {
   background-color: #ffe161 !important;
 }
 .bg-danger {
-  background-color: #ff9966 !important;
+  background-color: #4588c3 !important;
 }
 .btn-primary,
 .btn-primary:active {
@@ -228,8 +228,8 @@ body {
 }
 .btn-danger,
 .btn-danger:active {
-  background-color: #ff9966 !important;
-  border-color: #ff9966 !important;
+  background-color: #4588c3 !important;
+  border-color: #4588c3 !important;
   color: #ffffff !important;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
 }
@@ -238,15 +238,15 @@ body {
 .btn-danger.focus,
 .btn-danger.active {
   color: #ffffff !important;
-  background-color: #ff5f0f !important;
-  border-color: #ff5f0f !important;
+  background-color: #4588c3 !important;
+  border-color: #4588c3 !important;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
 }
 .btn-danger.disabled,
 .btn-danger:disabled {
   color: #ffffff !important;
-  background-color: #ff5f0f !important;
-  border-color: #ff5f0f !important;
+  background-color: #4588c3 !important;
+  border-color: #4588c3 !important;
 }
 .btn-white,
 .btn-white:active {
@@ -317,7 +317,7 @@ body {
 .btn-secondary-outline:active {
   background-color: transparent !important;
   border-color: transparent;
-  color: #ff4167;
+  color: #fa66a7;
 }
 .btn-secondary-outline:hover,
 .btn-secondary-outline:focus,
@@ -331,8 +331,8 @@ body {
 .btn-secondary-outline.disabled,
 .btn-secondary-outline:disabled {
   color: #ffffff !important;
-  background-color: #ff4167 !important;
-  border-color: #ff4167 !important;
+  background-color: #fa66a7 !important;
+  border-color: #fa66a7 !important;
 }
 .btn-info-outline,
 .btn-info-outline:active {
@@ -401,13 +401,13 @@ body {
 .btn-danger-outline:active {
   background-color: transparent !important;
   border-color: transparent;
-  color: #ff9966;
+  color: #4588c3;
 }
 .btn-danger-outline:hover,
 .btn-danger-outline:focus,
 .btn-danger-outline.focus,
 .btn-danger-outline.active {
-  color: #ff5f0f !important;
+  color: #4588c3 !important;
   background-color: transparent!important;
   border-color: transparent!important;
   box-shadow: none!important;
@@ -415,8 +415,8 @@ body {
 .btn-danger-outline.disabled,
 .btn-danger-outline:disabled {
   color: #ffffff !important;
-  background-color: #ff9966 !important;
-  border-color: #ff9966 !important;
+  background-color: #4588c3 !important;
+  border-color: #4588c3 !important;
 }
 .btn-black-outline,
 .btn-black-outline:active {
@@ -464,7 +464,7 @@ body {
   color: #6592e6 !important;
 }
 .text-secondary {
-  color: #ff4167 !important;
+  color: #fa66a7 !important;
 }
 .text-success {
   color: #40b0bf !important;
@@ -476,7 +476,7 @@ body {
   color: #ffe161 !important;
 }
 .text-danger {
-  color: #ff9966 !important;
+  color: #4588c3 !important;
 }
 .text-white {
   color: #fafafa !important;
@@ -553,7 +553,7 @@ a[class*="text-"]:not(.nav-link):not(.dropdown-item):not([role]):hover {
   background-color: #ffe161;
 }
 .alert-danger {
-  background-color: #ff9966;
+  background-color: #4588c3;
 }
 .mbr-gallery-filter li.active .btn {
   background-color: #6592e6;
@@ -652,7 +652,7 @@ blockquote {
 .xdsoft_datetimepicker .xdsoft_calendar td:hover,
 .xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box > div > div:hover {
   color: #000000 !important;
-  background: #ff4167 !important;
+  background: #fa66a7 !important;
   box-shadow: none !important;
 }
 .lazy-bg {
@@ -717,7 +717,7 @@ a {
   }
 }
 .cid-smH5WnU0bc .mbr-section-title {
-  color: #ff9966;
+  color: #4588c3;
 }
 .cid-smH6sYk3vI {
   padding-top: 4rem;
@@ -757,7 +757,7 @@ a {
 }
 .cid-smH7yzCdHX .nav-tabs {
   flex-wrap: wrap;
-  border-bottom: 1px solid #ff4167;
+  border-bottom: 1px solid #fa66a7;
 }
 @media (max-width: 767px) {
   .cid-smH7yzCdHX .nav-item {
@@ -783,15 +783,15 @@ a {
   background-color: transparent;
 }
 .cid-smH7yzCdHX .nav-tabs .nav-link.active {
-  color: #ff4167;
-  border-bottom: 3px solid #ff4167;
+  color: #fa66a7;
+  border-bottom: 3px solid #fa66a7;
 }
 .cid-smH7yzCdHX H4 {
   text-align: center;
 }
 .cid-smH7yzCdHX H3 {
   text-align: center;
-  color: #ff9966;
+  color: #4588c3;
 }
 .cid-s48OLK6784 {
   z-index: 1000;
@@ -1208,7 +1208,7 @@ a {
 }
 .cid-smH9YlleGZ .item-title {
   text-align: left;
-  color: #ff9966;
+  color: #4588c3;
 }
 .cid-smH9YlleGZ .item-subtitle {
   text-align: left;

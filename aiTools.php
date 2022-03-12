@@ -72,12 +72,6 @@
                         <a class="nav-link link text-black display-4" href="Tracker.php">Period Tracker</a>
                     </li>
                 </ul>
-                
-                <div class="navbar-buttons mbr-section-btn">
-                    <a class="btn btn-danger display-4" href="signup.php">
-                        Log In/ Sign Up
-                    </a>
-                </div>
             </div>
         </div>
     </nav>
@@ -91,7 +85,7 @@
     <div class="container-fluid">
         <div class="row justify-content-center">
             <div class="col-12 col-md-9">
-                <h3 class="mbr-section-title mb-0 mbr-fonts-style display-2"><strong style="font-family: 'Dancing Script', cursive;">AI Tools for Diagnosis</strong></h3>
+                <h3 class="mbr-section-title mb-0 mbr-fonts-style display-2"><strong style="font-family: 'Kaushan Script', cursive; color: #4588c3;">AI Tools for Diagnosis</strong></h3>
                 <br/>
                 <p class="card-text mbr-fonts-style display-7">
                     We currently provide an array of tools powered by artifical intelligence.

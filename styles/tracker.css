@@ -8,14 +8,13 @@
     align-items:center;
     justify-content:center;
     flex-wrap:wrap;
-    padding: 15px;
 }
 #track-page-img{
     width:200px;
 }
 #track-input{
     text-align:center;
-    border:1px solid #ff4167;
+    border:1px solid #fa66a7;
     width:70%;
     padding:2%;
     margin:2% 15%;
@@ -29,7 +28,7 @@
     box-shadow:2px 2px 5px 2px rgba(0,0,0,0.1);
 }
 #predict{
-    background: #ff4167; /* Old browsers */
+    background: #fa66a7; /* Old browsers */
     background: -moz-linear-gradient(-45deg,  #f03885 0%, #fb6aaa 100%); /* FF3.6-15 */
     background: -webkit-linear-gradient(-45deg,  #f03885 0%,#fb6aaa 100%); /* Chrome10-25,Safari5.1-6 */
     background: linear-gradient(135deg,  #f03885 0%,#fb6aaa 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
@@ -41,8 +40,8 @@
     box-shadow:2px 2px 5px 2px rgba(0,0,0,0.1);
 }
 h1{
-   font-family: 'Dancing Script', cursive; 
-   color:#ff9966; 
+   font-family: 'Kaushan Script', cursive; 
+   color:#4588c3; 
    font-size:3.5rem;
 }
 h2{
