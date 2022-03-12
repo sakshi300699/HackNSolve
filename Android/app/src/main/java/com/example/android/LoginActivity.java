@@ -162,7 +162,7 @@ public class LoginActivity extends AppCompatActivity {
     private void loginUserAsPerRole(String role, String userID){
         if(role.equals("Patient")){
             Toast.makeText(LoginActivity.this,"Welcome Patient!",Toast.LENGTH_SHORT).show();
-            Intent intent = new Intent(LoginActivity.this,MainActivity.class);
+            Intent intent = new Intent(LoginActivity.this,PatientHomeActivity.class);
             startActivity(intent);
             /*Intent intent = new Intent(LoginActivity.this,HomeActivity.class);
             startActivity(intent);
