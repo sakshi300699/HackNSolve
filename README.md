@@ -7,7 +7,7 @@
 
 **Title** – An All-in-one healthcare platform for your needs, where you are a priority.
 
-**Inspiration** - These pandemic times have taught us the importance of a remote healthcare system. Additionally rural areas currently do not have access to good healthcare systems. This has motivated us to build SheCure.
+**Inspiration** - These pandemic times have taught us the importance of a remote healthcare system. Additionally rural areas currently do not have access to good healthcare systems. This has motivated us to build MedForHer.
 
 ## Features
 * <b>Breast Cancer Detection tool :</b> Detects the presence of Metastatic Tissue and Invasive Ductal Carcinoma using two AI Models
