@@ -119,14 +119,6 @@ public class ChatListActivity extends AppCompatActivity {
         chatList.setAdapter(adapter);
     }
 
-    public void goToChatRoom(View view) {
-        TextView roomID = view.findViewById(R.id.roomID);
-        String chatRoomID = roomID.getText().toString();
-        chatIDs = new ArrayList<>();
-        chatNames = new ArrayList<>();
-        findUserName(chatRoomID);
-    }
-
     private void findUserName(String roomID) {
         String currUserId = FirebaseAuth.getInstance().getCurrentUser().getUid();
         DatabaseReference ref = FirebaseDatabase.getInstance().getReference().child(currUserRole).child(currUserId).child("info");
@@ -145,5 +137,13 @@ public class ChatListActivity extends AppCompatActivity {
 
             }
         });
+    }
+
+    public void navigateToChatRoom(View view) {
+        TextView roomID = view.findViewById(R.id.roomID);
+        String chatRoomID = roomID.getText().toString();
+        chatIDs = new ArrayList<>();
+        chatNames = new ArrayList<>();
+        findUserName(chatRoomID);
     }
 }
