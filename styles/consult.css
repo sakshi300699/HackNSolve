@@ -16,13 +16,14 @@
     margin:3% 2.5%;
     text-align:center;
     box-shadow:2px 2px 5px 2px rgba(0,0,0,0.1);
+    padding: 10px;
 }
 .lab-card-head{
-    background: #ff6666; /* Old browsers */
-    background: -moz-linear-gradient(-45deg,  #ff6666 0%, #ffd65e 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(-45deg,  #ff6666 0%,#ffd65e 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(135deg,  #ff6666 0%,#ffd65e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff6666', endColorstr='#ffd65e',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    background: #ff4167; /* Old browsers */
+    background: -moz-linear-gradient(-45deg,  #ff4167 0%, #ffd65e 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg,  #ff4167 0%,#ffd65e 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg,  #ff4167 0%,#ffd65e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff4167', endColorstr='#ffd65e',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
     
     height:50px;
     text-align:center;
