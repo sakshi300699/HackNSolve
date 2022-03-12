@@ -164,9 +164,6 @@ public class LoginActivity extends AppCompatActivity {
             Toast.makeText(LoginActivity.this,"Welcome Patient!",Toast.LENGTH_SHORT).show();
             Intent intent = new Intent(LoginActivity.this,PatientHomeActivity.class);
             startActivity(intent);
-            /*Intent intent = new Intent(LoginActivity.this,HomeActivity.class);
-            startActivity(intent);
-            finish();*/
         }
         if(role.equals("Doctor")){
             myref = db.getReference("doctor").child(userID).child("info");
@@ -178,10 +175,9 @@ public class LoginActivity extends AppCompatActivity {
                         Toast.makeText(LoginActivity.this,R.string.yetTobeVerified,Toast.LENGTH_SHORT).show();
                     }else{
                         Toast.makeText(LoginActivity.this,"Welcome Doctor!",Toast.LENGTH_SHORT).show();
-                        /*Toast.makeText(LoginActivity.this,"Welcome Doctor!",Toast.LENGTH_SHORT).show();
                         Intent intent = new Intent(LoginActivity.this,ChatListActivity.class);
                         startActivity(intent);
-                        finish();*/
+                        finish();
                     }
                 }
 

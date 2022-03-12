@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/doctorChats"
+        android:enabled="true"
+        android:icon="@drawable/doctor_consultation"
+        android:title="Doctor Chats"
+        android:visible="true">
+
+    </item>
+
+    <item
+        android:id="@+id/calls"
+        android:enabled="true"
+        android:icon="@drawable/calls"
+        android:title="My Calls"
+        android:visible="true">
+
+    </item>
+
+</menu>
