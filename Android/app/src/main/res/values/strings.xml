@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">MedForHer</string>
+    <string name="app_name">SheCure</string>
 
     <!--Login Screen-->
     <string name="email">Email</string>

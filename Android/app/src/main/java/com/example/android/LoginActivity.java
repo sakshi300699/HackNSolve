@@ -161,7 +161,6 @@ public class LoginActivity extends AppCompatActivity {
 
     private void loginUserAsPerRole(String role, String userID){
         if(role.equals("Patient")){
-            Toast.makeText(LoginActivity.this,"Welcome Patient!",Toast.LENGTH_SHORT).show();
             Intent intent = new Intent(LoginActivity.this,PatientHomeActivity.class);
             startActivity(intent);
         }
@@ -174,7 +173,6 @@ public class LoginActivity extends AppCompatActivity {
                     if(isVerified.equals("false")){
                         Toast.makeText(LoginActivity.this,R.string.yetTobeVerified,Toast.LENGTH_SHORT).show();
                     }else{
-                        Toast.makeText(LoginActivity.this,"Welcome Doctor!",Toast.LENGTH_SHORT).show();
                         Intent intent = new Intent(LoginActivity.this,ChatListActivity.class);
                         startActivity(intent);
                         finish();

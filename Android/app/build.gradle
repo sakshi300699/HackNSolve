@@ -8,6 +8,10 @@ android {
     compileSdkVersion 31
     buildToolsVersion "31.0.0"
 
+    buildFeatures {
+        viewBinding true
+    }
+
     defaultConfig {
         applicationId "com.example.android"
         minSdkVersion 24
@@ -51,6 +55,9 @@ dependencies {
     implementation "com.squareup.okhttp3:okhttp:4.4.0"
     implementation "com.squareup.okhttp3:logging-interceptor:4.4.0"
     implementation 'com.google.code.gson:gson:2.6.1'
+
+    implementation('org.jitsi.react:jitsi-meet-sdk:3.+') { transitive = true }
+    implementation 'com.android.support:multidex:1.0.3'
 
     testImplementation 'junit:junit:4.+'
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
