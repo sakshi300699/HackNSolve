@@ -28,48 +28,54 @@
     <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
  </head>
  <?php
+
+session_start();
+if(isset($_SESSION['status'])){
+    echo "<h5>".$_SESSION['status']."</h5>";
+    unset($_SESSION['status']);
+}
   
-  session_start();
-  if(isset($_POST['doctor'])){
+//   session_start();
+//   if(isset($_POST['doctor'])){
     
-    require_once('./config.php');
-    $email=$_POST['email'];
-    $u_name= $_POST['u_name'];
-    $pass= $_POST['pass'];
-    $uid= uniqid($u_name);
-    $occupation= "doctor";
-    $securepass= crypt($pass,$u_name);
-    $sql= "INSERT INTO `feminine`.`users` (`userid`, `username`, `password`, `email`, `occupation`) VALUES ('$uid', '$u_name', '$securepass', '$email', '$occupation');";
-    if($con->query($sql) == true){
-      echo "<br><br><br><h3 style='margin-left:400px;margin-top:20px;color:green' >You have successfully registered<a href='login.php'>Go back to Login Page</a></h3>";
+//     require_once('./config.php');
+//     $email=$_POST['email'];
+//     $u_name= $_POST['u_name'];
+//     $pass= $_POST['pass'];
+//     $uid= uniqid($u_name);
+//     $occupation= "doctor";
+//     $securepass= crypt($pass,$u_name);
+//     $sql= "INSERT INTO `feminine`.`users` (`userid`, `username`, `password`, `email`, `occupation`) VALUES ('$uid', '$u_name', '$securepass', '$email', '$occupation');";
+//     if($con->query($sql) == true){
+//       echo "<br><br><br><h3 style='margin-left:400px;margin-top:20px;color:green' >You have successfully registered<a href='login.php'>Go back to Login Page</a></h3>";
       
-  }
-  else{
-     echo "ERROR: $con->error";
-  }
-  $con->close();
+//   }
+//   else{
+//      echo "ERROR: $con->error";
+//   }
+//   $con->close();
 
-  }
+//   }
 
-  if(isset($_POST['patient'])){
-    require_once('./config.php');
-    $email=$_POST['email'];
-    $u_name= $_POST['u_name'];
-    $pass= $_POST['pass'];
-    $uid= uniqid($u_name);
-    $occupation= "patient";
-    $securepass= crypt($pass,$u_name);
-    $sql= "INSERT INTO `feminine`.`users` (`userid`, `username`, `password`, `email`, `occupation`) VALUES ('$uid', '$u_name', '$securepass', '$email', '$occupation');";
-    if($con->query($sql) == true){
-      echo "<br><br><br><h3 style='margin-left:400px;margin-top:20px;color:green' >You have successfully registered<a href='login.php'>Go back to Login Page</a></h3>";
+//   if(isset($_POST['patient'])){
+//     require_once('./config.php');
+//     $email=$_POST['email'];
+//     $u_name= $_POST['u_name'];
+//     $pass= $_POST['pass'];
+//     $uid= uniqid($u_name);
+//     $occupation= "patient";
+//     $securepass= crypt($pass,$u_name);
+//     $sql= "INSERT INTO `feminine`.`users` (`userid`, `username`, `password`, `email`, `occupation`) VALUES ('$uid', '$u_name', '$securepass', '$email', '$occupation');";
+//     if($con->query($sql) == true){
+//       echo "<br><br><br><h3 style='margin-left:400px;margin-top:20px;color:green' >You have successfully registered<a href='login.php'>Go back to Login Page</a></h3>";
       
-  }
-  else{
-     echo "ERROR: $con->error";
-  }
-  $con->close();
+//   }
+//   else{
+//      echo "ERROR: $con->error";
+//   }
+//   $con->close();
 
-  }
+//   }
 ?>
 <body>
   
@@ -132,7 +138,7 @@
                         <strong style="font-family: 'Kaushan Script', cursive; " style="color: #ff4167; font-size:2.5rem;">Sign Up</strong>
                     </h2>
                 <div>
-                        <form method="post" id="signupForm">
+                        <form method="POST" id="signupForm" action="code.php">
                             <div class="form-floating form-field-login">
                                 <label for="name">Name</label>
                                 <input type="name" class="form-control" id="u_name" placeholder="Name" name="u_name">
