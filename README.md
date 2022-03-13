@@ -1,17 +1,27 @@
-
+# SheCure: An All-in-one healthcare solution for all your needs
 
 **Solution Presented by Team TechBlitz**
 
+<p align="center">
+    <img src="SheCure.png" alt="Logo" width="300">
+  </a>
 
 ## Problem Statement
 
-**Title** – An All-in-one healthcare platform for your needs, where you are a priority.
-
-**Inspiration** - These pandemic times have taught us the importance of a remote healthcare system. Additionally rural areas currently do not have access to good healthcare systems. This has motivated us to build MedForHer.
+These pandemic times have taught us the importance of a remote healthcare system. Additionally, rural areas currently do not have access to good healthcare systems. Also, there is a large social stigma present in the society regarding reproductive health. Men and women do not prefer to discuss such issues openly in the society which often leads to negligence. Hence, to tackle the urban-rural healthcare divide and the social stigma related to reproductive health of women,we've built SheCure.
 
 ## Features
-* <b>Breast Cancer Detection tool :</b> Detects the presence of Metastatic Tissue and Invasive Ductal Carcinoma using two AI Models.
+* <b>Breast Cancer Detection tool :</b> Detects the presence of Metastatic Tissue and Invasive Ductal Carcinoma using two AI Models
 * <b>Predict Cervical Cancer</b> and preliminary test results according to user’s demographic information, habits, and historic medical records
+* <b>Mental Health Assessment</b> using standard PHQ-9 Questionnaire to detect severity of stress, depression, etc.
+* <b>Physical Health</b> Diagnosis using symptoms in patients
+* Dedicated Dashboard for Patient and Doctor
+* Tracking of previous Prescription & Medical History 
+* Menstrual Cycle Tracker
+* Booking Lab/Appointment
+* Video Conferencing for expert consultancy
+* Text-based expert guidance
+* Cross platform application available both on web and android.
 
 ## Technology Stack
 
@@ -21,13 +31,26 @@
   - Python - Sklearn, Keras, Tensorflow etc. for the ML Model(s)
   - Django REST Framework (for Model Endpoints)
 
+- Frontend
+  - HTML
+  - CSS
+  - Bootstrap
+  
+- Backend
+  - PHP 
+  - Firebase (Database)
+
+- Mobile Application
+  - Native Android (Java)
+
 - Tools
   - Microsoft Azure Machine Learning Studio for the ML Model(s)
+  - Xampp
   - Git
   - Github
 
 
-  ## Machine Learning Tools
+ ## Machine Learning Tools
 
 ### Breast Cancer Prediction Tool
 
