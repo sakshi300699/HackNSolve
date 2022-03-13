@@ -3,7 +3,7 @@
 **Solution Presented by Team TechBlitz**
 
 <p align="center">
-    <img src="MedForHer.png" alt="Logo" width="300">
+    <img src="MedForHer.jpeg" alt="Logo" width="300">
   </a>
 
 ## Problem Statement
