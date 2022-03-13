@@ -1,14 +1,14 @@
-# SheCure: An All-in-one healthcare solution for all your needs
+# MedForHer: An All-in-one healthcare solution for all your needs
 
 **Solution Presented by Team TechBlitz**
 
 <p align="center">
-    <img src="SheCure.png" alt="Logo" width="300">
+    <img src="MedForHer.png" alt="Logo" width="300">
   </a>
 
 ## Problem Statement
 
-These pandemic times have taught us the importance of a remote healthcare system. Additionally, rural areas currently do not have access to good healthcare systems. Also, there is a large social stigma present in the society regarding reproductive health. Men and women do not prefer to discuss such issues openly in the society which often leads to negligence. Hence, to tackle the urban-rural healthcare divide and the social stigma related to reproductive health of women,we've built SheCure.
+These pandemic times have taught us the importance of a remote healthcare system. Additionally, rural areas currently do not have access to good healthcare systems. Also, there is a large social stigma present in the society regarding reproductive health. Men and women do not prefer to discuss such issues openly in the society which often leads to negligence. Hence, to tackle the urban-rural healthcare divide and the social stigma related to reproductive health of women,we've built MedForHer.
 
 ## Features
 * <b>Breast Cancer Detection tool :</b> Detects the presence of Metastatic Tissue and Invasive Ductal Carcinoma using two AI Models
@@ -42,6 +42,7 @@ These pandemic times have taught us the importance of a remote healthcare system
 
 - Mobile Application
   - Native Android (Java)
+  - Jitsi Meet SDK for Video Conferencing
 
 - Tools
   - Microsoft Azure Machine Learning Studio for the ML Model(s)
